@@ -1,0 +1,17 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org
+# Example usage: python train.py --data coco.yaml
+
+
+
+
+train: /root/yolov5-6.0/calcdata/images/train
+val: /root/yolov5-6.0/calcdata/images/train
+
+
+# Classes
+nc: 1  # number of classes
+names: ['calc']  # class names
+
+
+
