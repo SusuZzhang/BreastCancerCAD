@@ -28,6 +28,7 @@ def get_detection_folder():
 
 if __name__ == '__main__':
 
+    st.set_page_config(page_title='Breast cancer CAD', page_icon=':sheep:', layout='wide', initial_sidebar_state="auto")
     st.title('网页版乳腺癌计算机辅助诊断系统')
     st.header('Web computer-aided diagnosis system for breast cancer')
     st.header('Introduction')
