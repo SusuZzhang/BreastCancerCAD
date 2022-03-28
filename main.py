@@ -32,8 +32,7 @@ if __name__ == '__main__':
     st.title('网页版乳腺癌计算机辅助诊断系统')
     st.header('Web computer-aided diagnosis system for breast cancer')
     st.header('Introduction')
-   st.text('This is a platform that can detect calcified lesions and tumor lesions of breast cancer.\n'
-            'You can choose to detect the lesions here and then enter your breast picture on the page.')
+   st.text('This is a platform that can detect calcified lesions and tumor lesions of breast cancer.\nYou can choose to detect the lesions here and then enter your breast picture on the page.')
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--weights', nargs='+', type=str, default='weights/mass_best.pt', help='model path(s)')
